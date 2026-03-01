@@ -1,0 +1,10 @@
+data/raw/cs-training.csv
+data/raw/cs-test.csv
+models/logistic_regression.pkl
+models/random_forest.pkl
+models/rf_fair.pkl
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+venv/

@@ -1,0 +1,27 @@
+credit-risk-explainability/
+│
+├── data/
+│   └── raw/                        
+│       ├── cs-training.csv          
+│       └── cs-test.csv             
+│
+├── notebooks/
+│   └── credit_risk.ipynb           
+│
+├── models/
+│   ├── logistic_regression.pkl
+│   ├── random_forest.pkl
+│   └── xgboost_model.json
+│
+├── images/
+│   ├── class_distribution.png
+│   ├── feature_distributions.png
+│   ├── roc_curves.png
+│   ├── shap_summary.png
+│   ├── shap_force_plot.png
+│   ├── lime_explanation.png
+│   └── fairness_metrics.png
+│
+├── app.py                          
+├── requirements.txt
+└── README.md
